@@ -1,0 +1,27 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\aref\cuda\2\image-proccessing\image-proccessing>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\aref\cuda\2\image-proccessing\image-proccessing\kernel.cu" 
+c:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+c:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+c:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+c:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\malloc.h(160): warning : expression has no effect
+c:\opencv\build\include\opencv2\flann\lsh_table.h(227): warning : statement is unreachable
+c:\opencv\build\include\opencv2\flann\lsh_table.h(232): warning : statement is unreachable
+c:\opencv\build\include\opencv2\flann\lsh_table.h(241): warning : statement is unreachable
+c:\opencv\build\include\opencv2\flann\index_testing.h(249): warning : variable "p1" was set but never used
+c:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+c:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(235): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+c:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(100): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::FeatherBlender"
+c:\opencv\build\include\opencv2/stitching/detail/blenders.hpp(127): warning : overloaded virtual function "cv::detail::Blender::prepare" is only partially overridden in class "cv::detail::MultiBandBlender"
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  kernel.cu
+D:/aref/cuda/2/image-proccessing/image-proccessing/kernel.cu(109): warning C4244: 'initializing': conversion from '__int64' to 'double', possible loss of data
+D:/aref/cuda/2/image-proccessing/image-proccessing/kernel.cu(131): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:/aref/cuda/2/image-proccessing/image-proccessing/kernel.cu(137): warning C4244: 'initializing': conversion from '__int64' to 'double', possible loss of data
+  image-proccessing.vcxproj -> D:\aref\cuda\2\image-proccessing\x64\Debug\image-proccessing.exe
+  image-proccessing.vcxproj -> D:\aref\cuda\2\image-proccessing\x64\Debug\image-proccessing.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "D:\aref\cuda\2\image-proccessing\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
